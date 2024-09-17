@@ -15,17 +15,17 @@ Delineating and classifying individual cells in microscopy tissue images is a co
 
 ![network_diagram](https://github.com/user-attachments/assets/1a8673b4-fb60-46f1-8398-514299a1ca65)
 
-## Getting Started
+[^Comment]:  ## Getting Started
 
-### Dependencies
+[^Comment]:  ### Dependencies
 
-### Installing
+[^Comment]:  ### Installing
 
-### Executing program
+[^Comment]:  ### Executing program
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
