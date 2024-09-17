@@ -1,10 +1,9 @@
 
 # CYTOARK: Cytoarchitecture analysis in Python
 <div>
-  <img width="15%" src="https://github.com/Vadori/cytoark/assets/36676465/8bed4528-ffea-49c8-81b9-e457b0d32bf3" alt="cytoark" title="cytoark" align="right">
+  <img width="10%" src="https://github.com/Vadori/cytoark/assets/36676465/8bed4528-ffea-49c8-81b9-e457b0d32bf3" alt="cytoark" title="cytoark" align="right">
 <div>
-**Cytoark** aims to collect tools for the automatic analysis of histological data. The focus is on the cytoarchitecture of the brain for comparative neuroanatomy. The main component right now is **CISCA**, an instance segmentation and classification model described 
-[here](https://www.arxiv.org/abs/2409.04175).
+**Cytoark** aims to collect tools for the automatic analysis of histological data. The focus is on the cytoarchitecture of the brain for comparative neuroanatomy. The main component right now is **CISCA**, an instance segmentation and classification model described [here](https://www.arxiv.org/abs/2409.04175).
 
 
 ## CISCA
