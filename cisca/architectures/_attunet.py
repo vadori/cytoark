@@ -116,9 +116,9 @@ def attunet_block(n_depth=2, n_filter_base=16, kernel_size=(3,3), n_conv_per_dep
                            init=kernel_init,
                            batch_norm=batch_norm, name=_name("middle_%s" % n_conv_per_depth))(layer)
 
-        for n in reversed(range(n_depth)):
-            print(n)
-            print(int(n_filter_base * expansion ** n))
+        # for n in reversed(range(n_depth)):
+        #     print(n)
+        #     print(int(n_filter_base * expansion ** n))
 
         # ...and up with skip layers
         for n in reversed(range(n_depth)):
