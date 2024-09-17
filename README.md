@@ -25,7 +25,7 @@ Delineating and classifying individual cells in microscopy tissue images is a co
 
 ## License
 
-This project is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International] License - see the LICENSE.md file for details
+This project is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
