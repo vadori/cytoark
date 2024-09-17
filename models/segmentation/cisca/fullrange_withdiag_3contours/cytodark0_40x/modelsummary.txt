@@ -1,0 +1,154 @@
+Model: "model_5"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ input (InputLayer)             [(None, 256, 256, 3  0           []                               
+                                )]                                                                
+                                                                                                  
+ down_level_0_no_0 (Conv2D)     (None, 256, 256, 64  1792        ['input[0][0]']                  
+                                )                                                                 
+                                                                                                  
+ down_level_0_no_1 (Conv2D)     (None, 256, 256, 64  36928       ['down_level_0_no_0[0][0]']      
+                                )                                                                 
+                                                                                                  
+ max_0 (MaxPooling2D)           (None, 128, 128, 64  0           ['down_level_0_no_1[0][0]']      
+                                )                                                                 
+                                                                                                  
+ down_level_1_no_0 (Conv2D)     (None, 128, 128, 12  73856       ['max_0[0][0]']                  
+                                8)                                                                
+                                                                                                  
+ down_level_1_no_1 (Conv2D)     (None, 128, 128, 12  147584      ['down_level_1_no_0[0][0]']      
+                                8)                                                                
+                                                                                                  
+ max_1 (MaxPooling2D)           (None, 64, 64, 128)  0           ['down_level_1_no_1[0][0]']      
+                                                                                                  
+ down_level_2_no_0 (Conv2D)     (None, 64, 64, 256)  295168      ['max_1[0][0]']                  
+                                                                                                  
+ down_level_2_no_1 (Conv2D)     (None, 64, 64, 256)  590080      ['down_level_2_no_0[0][0]']      
+                                                                                                  
+ max_2 (MaxPooling2D)           (None, 32, 32, 256)  0           ['down_level_2_no_1[0][0]']      
+                                                                                                  
+ down_level_3_no_0 (Conv2D)     (None, 32, 32, 512)  1180160     ['max_2[0][0]']                  
+                                                                                                  
+ down_level_3_no_1 (Conv2D)     (None, 32, 32, 512)  2359808     ['down_level_3_no_0[0][0]']      
+                                                                                                  
+ max_3 (MaxPooling2D)           (None, 16, 16, 512)  0           ['down_level_3_no_1[0][0]']      
+                                                                                                  
+ middle_0 (Conv2D)              (None, 16, 16, 1024  4719616     ['max_3[0][0]']                  
+                                )                                                                 
+                                                                                                  
+ middle_2 (Conv2D)              (None, 16, 16, 512)  4719104     ['middle_0[0][0]']               
+                                                                                                  
+ up_sampling2d_20 (UpSampling2D  (None, 32, 32, 512)  0          ['middle_2[0][0]']               
+ )                                                                                                
+                                                                                                  
+ concatenate_20 (Concatenate)   (None, 32, 32, 1024  0           ['up_sampling2d_20[0][0]',       
+                                )                                 'down_level_3_no_1[0][0]']      
+                                                                                                  
+ up_level_3_no_0 (Conv2D)       (None, 32, 32, 512)  4719104     ['concatenate_20[0][0]']         
+                                                                                                  
+ up_level_3_no_2 (Conv2D)       (None, 32, 32, 256)  1179904     ['up_level_3_no_0[0][0]']        
+                                                                                                  
+ up_sampling2d_21 (UpSampling2D  (None, 64, 64, 256)  0          ['up_level_3_no_2[0][0]']        
+ )                                                                                                
+                                                                                                  
+ concatenate_21 (Concatenate)   (None, 64, 64, 512)  0           ['up_sampling2d_21[0][0]',       
+                                                                  'down_level_2_no_1[0][0]']      
+                                                                                                  
+ up_level_2_no_0 (Conv2D)       (None, 64, 64, 256)  1179904     ['concatenate_21[0][0]']         
+                                                                                                  
+ up_level_2_no_2 (Conv2D)       (None, 64, 64, 128)  295040      ['up_level_2_no_0[0][0]']        
+                                                                                                  
+ up_sampling2d_22 (UpSampling2D  (None, 128, 128, 12  0          ['up_level_2_no_2[0][0]']        
+ )                              8)                                                                
+                                                                                                  
+ concatenate_22 (Concatenate)   (None, 128, 128, 25  0           ['up_sampling2d_22[0][0]',       
+                                6)                                'down_level_1_no_1[0][0]']      
+                                                                                                  
+ up_level_1_no_0 (Conv2D)       (None, 128, 128, 12  295040      ['concatenate_22[0][0]']         
+                                8)                                                                
+                                                                                                  
+ up_level_1_no_2 (Conv2D)       (None, 128, 128, 64  73792       ['up_level_1_no_0[0][0]']        
+                                )                                                                 
+                                                                                                  
+ up_sampling2d_23 (UpSampling2D  (None, 256, 256, 64  0          ['up_level_1_no_2[0][0]']        
+ )                              )                                                                 
+                                                                                                  
+ concatenate_23 (Concatenate)   (None, 256, 256, 12  0           ['up_sampling2d_23[0][0]',       
+                                8)                                'down_level_0_no_1[0][0]']      
+                                                                                                  
+ up_level_0_no_0 (Conv2D)       (None, 256, 256, 64  73792       ['concatenate_23[0][0]']         
+                                )                                                                 
+                                                                                                  
+ up_level_0_no_2 (Conv2D)       (None, 256, 256, 64  36928       ['up_level_0_no_0[0][0]']        
+                                )                                                                 
+                                                                                                  
+ features (Conv2D)              (None, 256, 256, 25  147712      ['up_level_0_no_2[0][0]']        
+                                6)                                                                
+                                                                                                  
+ conv2d_65 (Conv2D)             (None, 256, 256, 32  73760       ['features[0][0]']               
+                                )                                                                 
+                                                                                                  
+ conv2d_70 (Conv2D)             (None, 256, 256, 4)  9220        ['features[0][0]']               
+                                                                                                  
+ activation_52 (Activation)     (None, 256, 256, 32  0           ['conv2d_65[0][0]']              
+                                )                                                                 
+                                                                                                  
+ activation_56 (Activation)     (None, 256, 256, 4)  0           ['conv2d_70[0][0]']              
+                                                                                                  
+ conv2d_67 (Conv2D)             (None, 256, 256, 32  8224        ['features[0][0]']               
+                                )                                                                 
+                                                                                                  
+ conv2d_66 (Conv2D)             (None, 256, 256, 32  9248        ['activation_52[0][0]']          
+                                )                                                                 
+                                                                                                  
+ conv2d_72 (Conv2D)             (None, 256, 256, 4)  1028        ['features[0][0]']               
+                                                                                                  
+ conv2d_71 (Conv2D)             (None, 256, 256, 4)  148         ['activation_56[0][0]']          
+                                                                                                  
+ add_26 (Add)                   (None, 256, 256, 32  0           ['conv2d_67[0][0]',              
+                                )                                 'conv2d_66[0][0]']              
+                                                                                                  
+ add_28 (Add)                   (None, 256, 256, 4)  0           ['conv2d_72[0][0]',              
+                                                                  'conv2d_71[0][0]']              
+                                                                                                  
+ activation_53 (Activation)     (None, 256, 256, 32  0           ['add_26[0][0]']                 
+                                )                                                                 
+                                                                                                  
+ activation_57 (Activation)     (None, 256, 256, 4)  0           ['add_28[0][0]']                 
+                                                                                                  
+ conv2d_68 (Conv2D)             (None, 256, 256, 32  9248        ['activation_53[0][0]']          
+                                )                                                                 
+                                                                                                  
+ conv2d_73 (Conv2D)             (None, 256, 256, 4)  148         ['activation_57[0][0]']          
+                                                                                                  
+ activation_54 (Activation)     (None, 256, 256, 32  0           ['conv2d_68[0][0]']              
+                                )                                                                 
+                                                                                                  
+ activation_58 (Activation)     (None, 256, 256, 4)  0           ['conv2d_73[0][0]']              
+                                                                                                  
+ conv2d_69 (Conv2D)             (None, 256, 256, 32  9248        ['activation_54[0][0]']          
+                                )                                                                 
+                                                                                                  
+ conv2d_74 (Conv2D)             (None, 256, 256, 4)  148         ['activation_58[0][0]']          
+                                                                                                  
+ add_27 (Add)                   (None, 256, 256, 32  0           ['activation_53[0][0]',          
+                                )                                 'conv2d_69[0][0]']              
+                                                                                                  
+ add_29 (Add)                   (None, 256, 256, 4)  0           ['activation_57[0][0]',          
+                                                                  'conv2d_74[0][0]']              
+                                                                                                  
+ activation_55 (Activation)     (None, 256, 256, 32  0           ['add_27[0][0]']                 
+                                )                                                                 
+                                                                                                  
+ activation_59 (Activation)     (None, 256, 256, 4)  0           ['add_29[0][0]']                 
+                                                                                                  
+ contour (Conv2D)               (None, 256, 256, 3)  99          ['activation_55[0][0]']          
+                                                                                                  
+ dist (Conv2D)                  (None, 256, 256, 4)  20          ['activation_59[0][0]']          
+                                                                                                  
+==================================================================================================
+Total params: 22,245,851
+Trainable params: 22,245,851
+Non-trainable params: 0
+__________________________________________________________________________________________________
