@@ -1,5 +1,5 @@
 <div>
-  <img width="50%" src="https://github.com/Vadori/cytoark/assets/36676465/8bed4528-ffea-49c8-81b9-e457b0d32bf3" alt="cytoark" title="cytoark" align="right">
+  <img width="20%" src="https://github.com/Vadori/cytoark/assets/36676465/8bed4528-ffea-49c8-81b9-e457b0d32bf3" alt="cytoark" title="cytoark" align="right">
 <div>
 
 # CYTOARK: Cytoarchitecture analysis in Python
