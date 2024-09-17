@@ -251,12 +251,6 @@ if __name__ == "__main__":
 # dataset_name = "Pannuke"
 # path_dataset = "D:\NucleiSegmentation\Projects\cytoark\datasets\Pannuke\40x\256x256\image"
 
-####### Lilly #######
-# color_space = "LAB"
-# dataset_name = "Lilly"
-# path_dataset = "E:/patches_Lilly" #ncismodel.image_folder
-# #images_list = glob.glob(path_dataset+"/*/*") # all files absolute path
-
 # file_set = set()
 
 # for dir_, _, files in os.walk(path_dataset):
