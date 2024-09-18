@@ -41,7 +41,7 @@ We thank all the authors that inspired us and continue to inspire us, and share 
 ## Attribution
 If you find our work useful, please cite us :)
 
-DATASET (cytoDArk0) and/or CELL SEGMENTATION & CLASSIFICATION METHOD (CISCA)
+**DATASET (cytoDArk0) and/or CELL SEGMENTATION & CLASSIFICATION METHOD (CISCA)**
 
 Vadori, V., Graïc, J.-M., Peruffo, A., Vadori, G., Finos, L., & Grisan, E. (2024). CISCA and CytoDArk0: a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses and a new, open, Nissl-stained dataset for brain cytoarchitecture studies. arXiv preprint arXiv:2409.04175. https://doi.org/10.48550/arXiv.2409.04175
 
@@ -58,7 +58,7 @@ Vadori, V., Graïc, J.-M., Peruffo, A., Vadori, G., Finos, L., & Grisan, E. (202
   pages={arXiv--2409},
 }
 
-DATASET (cytoDArk0)
+**DATASET (cytoDArk0)**
 Vadori, V., Graïc, J.-M., Peruffo, A., Vadori, G., Finos, L., & Grisan, E. (2024). CytoDark0 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13694738
 @dataset{vadori_2024_13694738,
   author = {Vadori, Valentina and
