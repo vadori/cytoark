@@ -1,7 +1,7 @@
 
 # CYTOARK: Cytoarchitecture analysis in Python (WIP!)
 
-<img width="10%" src="https://github.com/Vadori/cytoark/assets/36676465/8bed4528-ffea-49c8-81b9-e457b0d32bf3" alt="cytoark" title="cytoark" align="right">
+<img width="20%" src="https://github.com/Vadori/cytoark/assets/36676465/8bed4528-ffea-49c8-81b9-e457b0d32bf3" alt="cytoark" title="cytoark" align="right">
 
 **Cytoark** aims to provide tools for the automatic analysis of histological data. The focus is on analyzing the brain cytoarchitecture for comparative neuroanatomy studies. The main components right now are the following:
 - **CISCA**, a cell instance segmentation and classification model. The code is available in this repo.
