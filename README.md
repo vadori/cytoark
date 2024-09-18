@@ -3,7 +3,9 @@
 
 <img width="10%" src="https://github.com/Vadori/cytoark/assets/36676465/8bed4528-ffea-49c8-81b9-e457b0d32bf3" alt="cytoark" title="cytoark" align="right">
 
-**Cytoark** aims to provide tools for the automatic analysis of histological data. The focus is on analyzing the brain cytoarchitecture for comparative neuroanatomy studies. The main components right now are **CISCA**, a cell instance segmentation and classification model, and **CytoDArk0**, the first Nissl-stained histological dataset of the mammalian brain with annotations of single cells. Both are described [here](https://www.arxiv.org/abs/2409.04175) (pre-print). CytoDArk0 is available on Zenodo [CytoDArk0](https://zenodo.org/records/13694738).
+**Cytoark** aims to provide tools for the automatic analysis of histological data. The focus is on analyzing the brain cytoarchitecture for comparative neuroanatomy studies. The main components right now are 
+- **CISCA**, a cell instance segmentation and classification model
+- **CytoDArk0**, the first Nissl-stained histological dataset of the mammalian brain with annotations of single cells. Both are described [here](https://www.arxiv.org/abs/2409.04175) (pre-print). CytoDArk0 is available on Zenodo [CytoDArk0](https://zenodo.org/records/13694738).
 
 
 ## CISCA: a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses
