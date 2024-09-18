@@ -36,6 +36,7 @@ We thank all the authors that inspired us and continue to inspire us, and share 
 - Graham, Simon, et al. "Hover-net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images." Medical image analysis 58 (2019): 101563. [Tensorflow original code](https://github.com/vqdang/hover_net/tree/tensorflow-final) [Paper](https://www.sciencedirect.com/science/article/pii/S1361841519301045)
 - Upschulte, Eric, et al. "Contour proposal networks for biomedical instance segmentation." Medical image analysis 77 (2022): 102371. [Code](https://github.com/FZJ-INM1-BDA/celldetection/tree/main) [Paper](https://www.sciencedirect.com/science/article/pii/S136184152200024X)
 - Hörst, Fabian, et al. "Cellvit: Vision transformers for precise cell segmentation and classification." Medical Image Analysis 94 (2024): 103143. [Code](https://github.com/TIO-IKIM/CellViT) [Paper](https://www.sciencedirect.com/science/article/pii/S1361841524000689)
+- CSBDeep [Code](https://github.com/CSBDeep/CSBDeep)
 
 ## Attribution
 If you find our work useful, please cite us :)
