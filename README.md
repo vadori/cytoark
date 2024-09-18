@@ -30,9 +30,22 @@ Delineating and classifying individual cells in microscopy tissue images is a co
 
 This project is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) License - see the LICENSE.md file for details.
 
-[^Comment]:  ## Acknowledgments
+## Acknowledgments
+We thank all the authors that inspired us and continue to inspire us, and share their work with the community. In particular, we acknowledge the following:
+- Schmidt, Uwe, et al. "Cell detection with star-convex polygons." Medical Image Computing and Computer Assisted Intervention–MICCAI 2018: 21st International Conference, Granada, Spain, September 16-20, 2018, Proceedings, Part II 11. Springer International Publishing, 2018. [Code](https://github.com/stardist/stardist) [Paper](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_30)
+- Graham, Simon, et al. "Hover-net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images." Medical image analysis 58 (2019): 101563. [Tensorflow original code](https://github.com/vqdang/hover_net/tree/tensorflow-final) [Paper](https://www.sciencedirect.com/science/article/pii/S1361841519301045)
+- Upschulte, Eric, et al. "Contour proposal networks for biomedical instance segmentation." Medical image analysis 77 (2022): 102371. [Code](https://github.com/FZJ-INM1-BDA/celldetection/tree/main) [Paper](https://www.sciencedirect.com/science/article/pii/S136184152200024X)
+- Hörst, Fabian, et al. "Cellvit: Vision transformers for precise cell segmentation and classification." Medical Image Analysis 94 (2024): 103143. [Code](https://github.com/TIO-IKIM/CellViT) [Paper](https://www.sciencedirect.com/science/article/pii/S1361841524000689)
 
-[^Comment]:  ## Attribution
+## Attribution
+If you find our work useful, please cite us :)
+- Vadori, Valentina, et al. "CISCA and CytoDArk0: a Cell Instance Segmentation and Classification method for histo (patho) logical image Analyses and a new, open, Nissl-stained dataset for brain cytoarchitecture studies." arXiv preprint arXiv:2409.04175 (2024).
+- @article{vadori2024cisca,
+  title={CISCA and CytoDArk0: a Cell Instance Segmentation and Classification method for histo (patho) logical image Analyses and a new, open, Nissl-stained dataset for brain cytoarchitecture studies},
+  author={Vadori, Valentina and Gra{\"\i}c, Jean-Marie and Peruffo, Antonella and Vadori, Giulia and Finos, Livio and Grisan, Enrico},
+  journal={arXiv preprint arXiv:2409.04175},
+  year={2024}
+}
 
 
 
