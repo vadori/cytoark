@@ -40,13 +40,43 @@ We thank all the authors that inspired us and continue to inspire us, and share 
 
 ## Attribution
 If you find our work useful, please cite us :)
-- Vadori, Valentina, et al. "CISCA and CytoDArk0: a Cell Instance Segmentation and Classification method for histo (patho) logical image Analyses and a new, open, Nissl-stained dataset for brain cytoarchitecture studies." arXiv preprint arXiv:2409.04175 (2024).
-- @article{vadori2024cisca,
-  title={CISCA and CytoDArk0: a Cell Instance Segmentation and Classification method for histo (patho) logical image Analyses and a new, open, Nissl-stained dataset for brain cytoarchitecture studies},
-  author={Vadori, Valentina and Gra{\"\i}c, Jean-Marie and Peruffo, Antonella and Vadori, Giulia and Finos, Livio and Grisan, Enrico},
-  journal={arXiv preprint arXiv:2409.04175},
-  year={2024}
+
+DATASET (cytoDArk0) and/or CELL SEGMENTATION & CLASSIFICATION METHOD (CISCA)
+
+Vadori, V., Graïc, J.-M., Peruffo, A., Vadori, G., Finos, L., & Grisan, E. (2024). CISCA and CytoDArk0: a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses and a new, open, Nissl-stained dataset for brain cytoarchitecture studies. arXiv preprint arXiv:2409.04175. https://doi.org/10.48550/arXiv.2409.04175
+
+@article{vadori2024cisca,
+  author = {Vadori, Valentina and
+            Graïc, Jean-Marie and
+            Peruffo, Antonella and
+            Vadori, Giulia and
+            Finos, Livio and
+            Grisan, Enrico},
+  title = {CISCA and CytoDArk0: a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses and a new, open, Nissl-stained dataset for brain cytoarchitecture studies},
+  year = {2024},
+  journal={arXiv e-prints},
+  pages={arXiv--2409},
 }
+
+DATASET (cytoDArk0)
+Vadori, V., Graïc, J.-M., Peruffo, A., Vadori, G., Finos, L., & Grisan, E. (2024). CytoDark0 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13694738
+@dataset{vadori_2024_13694738,
+  author = {Vadori, Valentina and
+            Graïc, Jean-Marie and
+            Peruffo, Antonella and
+            Vadori, Giulia and
+            Finos, Livio and
+            Grisan, Enrico},
+  title = {CytoDArk0},
+  month = sep,
+  year = {2024},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.13694738},
+  url = {https://doi.org/10.5281/zenodo.13694738}
+}
+
+
+
 
 
 
