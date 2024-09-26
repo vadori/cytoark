@@ -11,8 +11,6 @@ import numpy as np
 from skimage.measure import label
 from skimage.morphology import disk, dilation
 from cisca.imutils import dir_distance_map, dir_distance_map_fullrange
-from deepcell.deepcell_generators import _transform_masks as deepcell_transform_masks
-
 
 def crop_center(img, cropx, cropy=None):
     """
