@@ -1,4 +1,4 @@
-Model: "model_11"
+Model: "model_3"
 __________________________________________________________________________________________________
  Layer (type)                   Output Shape         Param #     Connected to                     
 ==================================================================================================
@@ -39,45 +39,45 @@ ________________________________________________________________________________
                                                                                                   
  middle_2 (Conv2D)              (None, 16, 16, 512)  4719104     ['middle_0[0][0]']               
                                                                                                   
- up_sampling2d_44 (UpSampling2D  (None, 32, 32, 512)  0          ['middle_2[0][0]']               
+ up_sampling2d_12 (UpSampling2D  (None, 32, 32, 512)  0          ['middle_2[0][0]']               
  )                                                                                                
                                                                                                   
- concatenate_44 (Concatenate)   (None, 32, 32, 1024  0           ['up_sampling2d_44[0][0]',       
+ concatenate_12 (Concatenate)   (None, 32, 32, 1024  0           ['up_sampling2d_12[0][0]',       
                                 )                                 'down_level_3_no_1[0][0]']      
                                                                                                   
- up_level_3_no_0 (Conv2D)       (None, 32, 32, 512)  4719104     ['concatenate_44[0][0]']         
+ up_level_3_no_0 (Conv2D)       (None, 32, 32, 512)  4719104     ['concatenate_12[0][0]']         
                                                                                                   
  up_level_3_no_2 (Conv2D)       (None, 32, 32, 256)  1179904     ['up_level_3_no_0[0][0]']        
                                                                                                   
- up_sampling2d_45 (UpSampling2D  (None, 64, 64, 256)  0          ['up_level_3_no_2[0][0]']        
+ up_sampling2d_13 (UpSampling2D  (None, 64, 64, 256)  0          ['up_level_3_no_2[0][0]']        
  )                                                                                                
                                                                                                   
- concatenate_45 (Concatenate)   (None, 64, 64, 512)  0           ['up_sampling2d_45[0][0]',       
+ concatenate_13 (Concatenate)   (None, 64, 64, 512)  0           ['up_sampling2d_13[0][0]',       
                                                                   'down_level_2_no_1[0][0]']      
                                                                                                   
- up_level_2_no_0 (Conv2D)       (None, 64, 64, 256)  1179904     ['concatenate_45[0][0]']         
+ up_level_2_no_0 (Conv2D)       (None, 64, 64, 256)  1179904     ['concatenate_13[0][0]']         
                                                                                                   
  up_level_2_no_2 (Conv2D)       (None, 64, 64, 128)  295040      ['up_level_2_no_0[0][0]']        
                                                                                                   
- up_sampling2d_46 (UpSampling2D  (None, 128, 128, 12  0          ['up_level_2_no_2[0][0]']        
+ up_sampling2d_14 (UpSampling2D  (None, 128, 128, 12  0          ['up_level_2_no_2[0][0]']        
  )                              8)                                                                
                                                                                                   
- concatenate_46 (Concatenate)   (None, 128, 128, 25  0           ['up_sampling2d_46[0][0]',       
+ concatenate_14 (Concatenate)   (None, 128, 128, 25  0           ['up_sampling2d_14[0][0]',       
                                 6)                                'down_level_1_no_1[0][0]']      
                                                                                                   
- up_level_1_no_0 (Conv2D)       (None, 128, 128, 12  295040      ['concatenate_46[0][0]']         
+ up_level_1_no_0 (Conv2D)       (None, 128, 128, 12  295040      ['concatenate_14[0][0]']         
                                 8)                                                                
                                                                                                   
  up_level_1_no_2 (Conv2D)       (None, 128, 128, 64  73792       ['up_level_1_no_0[0][0]']        
                                 )                                                                 
                                                                                                   
- up_sampling2d_47 (UpSampling2D  (None, 256, 256, 64  0          ['up_level_1_no_2[0][0]']        
+ up_sampling2d_15 (UpSampling2D  (None, 256, 256, 64  0          ['up_level_1_no_2[0][0]']        
  )                              )                                                                 
                                                                                                   
- concatenate_47 (Concatenate)   (None, 256, 256, 12  0           ['up_sampling2d_47[0][0]',       
+ concatenate_15 (Concatenate)   (None, 256, 256, 12  0           ['up_sampling2d_15[0][0]',       
                                 8)                                'down_level_0_no_1[0][0]']      
                                                                                                   
- up_level_0_no_0 (Conv2D)       (None, 256, 256, 64  73792       ['concatenate_47[0][0]']         
+ up_level_0_no_0 (Conv2D)       (None, 256, 256, 64  73792       ['concatenate_15[0][0]']         
                                 )                                                                 
                                                                                                   
  up_level_0_no_2 (Conv2D)       (None, 256, 256, 64  36928       ['up_level_0_no_0[0][0]']        
@@ -86,66 +86,66 @@ ________________________________________________________________________________
  features (Conv2D)              (None, 256, 256, 25  147712      ['up_level_0_no_2[0][0]']        
                                 6)                                                                
                                                                                                   
- conv2d_140 (Conv2D)            (None, 256, 256, 32  73760       ['features[0][0]']               
+ conv2d_45 (Conv2D)             (None, 256, 256, 32  73760       ['features[0][0]']               
                                 )                                                                 
                                                                                                   
- conv2d_145 (Conv2D)            (None, 256, 256, 4)  9220        ['features[0][0]']               
+ conv2d_50 (Conv2D)             (None, 256, 256, 4)  9220        ['features[0][0]']               
                                                                                                   
- activation_112 (Activation)    (None, 256, 256, 32  0           ['conv2d_140[0][0]']             
+ activation_36 (Activation)     (None, 256, 256, 32  0           ['conv2d_45[0][0]']              
                                 )                                                                 
                                                                                                   
- activation_116 (Activation)    (None, 256, 256, 4)  0           ['conv2d_145[0][0]']             
+ activation_40 (Activation)     (None, 256, 256, 4)  0           ['conv2d_50[0][0]']              
                                                                                                   
- conv2d_142 (Conv2D)            (None, 256, 256, 32  8224        ['features[0][0]']               
+ conv2d_47 (Conv2D)             (None, 256, 256, 32  8224        ['features[0][0]']               
                                 )                                                                 
                                                                                                   
- conv2d_141 (Conv2D)            (None, 256, 256, 32  9248        ['activation_112[0][0]']         
+ conv2d_46 (Conv2D)             (None, 256, 256, 32  9248        ['activation_36[0][0]']          
                                 )                                                                 
                                                                                                   
- conv2d_147 (Conv2D)            (None, 256, 256, 4)  1028        ['features[0][0]']               
+ conv2d_52 (Conv2D)             (None, 256, 256, 4)  1028        ['features[0][0]']               
                                                                                                   
- conv2d_146 (Conv2D)            (None, 256, 256, 4)  148         ['activation_116[0][0]']         
+ conv2d_51 (Conv2D)             (None, 256, 256, 4)  148         ['activation_40[0][0]']          
                                                                                                   
- add_56 (Add)                   (None, 256, 256, 32  0           ['conv2d_142[0][0]',             
-                                )                                 'conv2d_141[0][0]']             
+ add_18 (Add)                   (None, 256, 256, 32  0           ['conv2d_47[0][0]',              
+                                )                                 'conv2d_46[0][0]']              
                                                                                                   
- add_58 (Add)                   (None, 256, 256, 4)  0           ['conv2d_147[0][0]',             
-                                                                  'conv2d_146[0][0]']             
+ add_20 (Add)                   (None, 256, 256, 4)  0           ['conv2d_52[0][0]',              
+                                                                  'conv2d_51[0][0]']              
                                                                                                   
- activation_113 (Activation)    (None, 256, 256, 32  0           ['add_56[0][0]']                 
+ activation_37 (Activation)     (None, 256, 256, 32  0           ['add_18[0][0]']                 
                                 )                                                                 
                                                                                                   
- activation_117 (Activation)    (None, 256, 256, 4)  0           ['add_58[0][0]']                 
+ activation_41 (Activation)     (None, 256, 256, 4)  0           ['add_20[0][0]']                 
                                                                                                   
- conv2d_143 (Conv2D)            (None, 256, 256, 32  9248        ['activation_113[0][0]']         
+ conv2d_48 (Conv2D)             (None, 256, 256, 32  9248        ['activation_37[0][0]']          
                                 )                                                                 
                                                                                                   
- conv2d_148 (Conv2D)            (None, 256, 256, 4)  148         ['activation_117[0][0]']         
+ conv2d_53 (Conv2D)             (None, 256, 256, 4)  148         ['activation_41[0][0]']          
                                                                                                   
- activation_114 (Activation)    (None, 256, 256, 32  0           ['conv2d_143[0][0]']             
+ activation_38 (Activation)     (None, 256, 256, 32  0           ['conv2d_48[0][0]']              
                                 )                                                                 
                                                                                                   
- activation_118 (Activation)    (None, 256, 256, 4)  0           ['conv2d_148[0][0]']             
+ activation_42 (Activation)     (None, 256, 256, 4)  0           ['conv2d_53[0][0]']              
                                                                                                   
- conv2d_144 (Conv2D)            (None, 256, 256, 32  9248        ['activation_114[0][0]']         
+ conv2d_49 (Conv2D)             (None, 256, 256, 32  9248        ['activation_38[0][0]']          
                                 )                                                                 
                                                                                                   
- conv2d_149 (Conv2D)            (None, 256, 256, 4)  148         ['activation_118[0][0]']         
+ conv2d_54 (Conv2D)             (None, 256, 256, 4)  148         ['activation_42[0][0]']          
                                                                                                   
- add_57 (Add)                   (None, 256, 256, 32  0           ['activation_113[0][0]',         
-                                )                                 'conv2d_144[0][0]']             
+ add_19 (Add)                   (None, 256, 256, 32  0           ['activation_37[0][0]',          
+                                )                                 'conv2d_49[0][0]']              
                                                                                                   
- add_59 (Add)                   (None, 256, 256, 4)  0           ['activation_117[0][0]',         
-                                                                  'conv2d_149[0][0]']             
+ add_21 (Add)                   (None, 256, 256, 4)  0           ['activation_41[0][0]',          
+                                                                  'conv2d_54[0][0]']              
                                                                                                   
- activation_115 (Activation)    (None, 256, 256, 32  0           ['add_57[0][0]']                 
+ activation_39 (Activation)     (None, 256, 256, 32  0           ['add_19[0][0]']                 
                                 )                                                                 
                                                                                                   
- activation_119 (Activation)    (None, 256, 256, 4)  0           ['add_59[0][0]']                 
+ activation_43 (Activation)     (None, 256, 256, 4)  0           ['add_21[0][0]']                 
                                                                                                   
- contour (Conv2D)               (None, 256, 256, 3)  99          ['activation_115[0][0]']         
+ contour (Conv2D)               (None, 256, 256, 3)  99          ['activation_39[0][0]']          
                                                                                                   
- dist (Conv2D)                  (None, 256, 256, 4)  20          ['activation_119[0][0]']         
+ dist (Conv2D)                  (None, 256, 256, 4)  20          ['activation_43[0][0]']          
                                                                                                   
 ==================================================================================================
 Total params: 22,245,851
