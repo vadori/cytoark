@@ -69,10 +69,10 @@
 *.pyc 
 
 # Datasets to be downloaded separately
-**\datasets\cytodark0
-**\datasets\conic
-**\datasets\pannuke
-**\datasets\monusegtestdata
+datasets/cytodark0
+datasets/conic
+datasets/pannuke
+datasets/monusegtestdata
 
 # Consider extra images
 !/datasets/extra/**
