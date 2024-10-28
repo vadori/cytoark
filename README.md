@@ -6,6 +6,8 @@
 **Cytoark** aims to provide tools for the automatic analysis of histological data. The focus is on analyzing the brain cytoarchitecture for comparative neuroanatomy studies. The main components right now are the following:
 - **CISCA**, a cell instance segmentation and classification model. The code is available in this repo. 
 - **CytoDArk0**, the first Nissl-stained histological dataset of the mammalian brain with annotations of single cells.  CytoDArk0 is available on Zenodo [CytoDArk0](https://zenodo.org/records/13694738).
+- **Lace**, the first self-supervised attempt at detecting layers in 2D Nissl-stained histological slices of the cerebral cortex (WIP)
+- **C-Shape** (WIP)
 Both are described [here](https://www.arxiv.org/abs/2409.04175) (pre-print).
 
 Please note that this repo is WIP, so please contact the owner in case you run into any issues while testing the model on your images. 
