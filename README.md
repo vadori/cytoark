@@ -13,7 +13,7 @@ WIP:
 - **Lace**, the first self-supervised attempt at detecting layers in 2D Nissl-stained histological slices of the cerebral cortex 
 - **C-Shape** 
   
-Please note that this repo is WIP, so please contact the owner in case you run into any issues while testing the model on your images. 
+Please note that this repo is WIP, so please contact the owner in case you run into any issues. 
 
 ## CISCA: a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses
 
