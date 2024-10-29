@@ -45,7 +45,7 @@ We thank all the authors that inspired us and shared their work with the communi
 - CSBDeep - a deep learning toolbox for microscopy image restoration and analysis [Code](https://github.com/CSBDeep/CSBDeep)
 
 ## Attribution
-If you find our work useful, please cite us :)
+If you find our dataset or CISCA framework useful, we'd love a shoutout! Here’s a citation format you can use:
 
 **DATASET (cytoDArk0) and/or CELL SEGMENTATION & CLASSIFICATION METHOD (CISCA)**
 
