@@ -66,7 +66,7 @@ If you find our dataset or CISCA framework useful, we'd love a shoutout! Here’
 **DATASET (cytoDArk0)**
 
 - Vadori, V., Graïc, J.-M., Peruffo, A., Vadori, G., Finos, L., & Grisan, E. (2024). CytoDark0 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13694738
-- @dataset{vadori_2024_13694738,
+- @dataset{vadori2024cytodark0,
   author = {Vadori, Valentina and
             Graïc, Jean-Marie and
             Peruffo, Antonella and
