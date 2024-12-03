@@ -11,7 +11,7 @@ Both are described [here](https://www.arxiv.org/abs/2409.04175) (pre-print).
 
 WIP:
 - **Lace**, the first self-supervised attempt at detecting layers in 2D Nissl-stained histological slices of the cerebral cortex 
-- **C-Shape** 
+- **C-Shape**, a comprehensive comparison of methods for classifiyng cell shapes 
   
 Please note that this repo is WIP, so please contact the owner in case you run into any issues. 
 
