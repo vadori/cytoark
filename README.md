@@ -10,8 +10,8 @@
 Both are described [here](https://www.arxiv.org/abs/2409.04175) (pre-print).
 
 The codebase for the following tools/studies will be added soon.
-- [**Lace**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10635252), the first self-supervised attempt at detecting layers in 2D Nissl-stained histological slices of the cerebral cortex 
-- [**C-Shape**](https://arxiv.org/abs/2411.00561), a comprehensive comparison of methods for classifying cell shapes
+- [**Lace**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10635252), the first self-supervised approach using graph convolutional networks to detect layers in 2D Nissl-stained histological slices of the cerebral cortex.
+- [**C-Shape**](https://arxiv.org/abs/2411.00561), a comprehensive comparison of methods for classifying cell shapes, including Elliptical Fourier Descriptors and PCA
 - [**Histo-Smith**](https://arxiv.org/abs/2502.08754), a novel single-stage, latent-diffusion-based, conditional approach for generating image-label pairs to augment annotated histology datasets for cell instance segmentation and classification 
 - [**Mind The Gap**](https://arxiv.org/abs/2502.02471), an evaluation of the gap in the representation learning capabilities between domain-specific histopathology foundation models and general-purpose foundation models for cell instance segmentation and classification
   
