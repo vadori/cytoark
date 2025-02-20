@@ -9,7 +9,7 @@
 
 Both are described [here](https://www.arxiv.org/abs/2409.04175) (pre-print).
 
-The codebase of the following tools/studies shall be added in the near future:
+The codebase for the following tools/studies will be added soon.
 - [**Lace**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10635252), the first self-supervised attempt at detecting layers in 2D Nissl-stained histological slices of the cerebral cortex 
 - [**C-Shape**](https://arxiv.org/abs/2411.00561), a comprehensive comparison of methods for classifying cell shapes
 - [**Histo-Smith**](https://arxiv.org/abs/2502.08754), novel single-stage approach for generating image-label pairs to augment annotated histology datasets for cell instance segmentation and classificaton 
