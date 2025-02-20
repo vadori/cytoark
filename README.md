@@ -9,13 +9,13 @@
 
 Both are described [here](https://www.arxiv.org/abs/2409.04175) (pre-print).
 
-WIP:
+The codebase of the following tools/studies shall be added in the near future:
 - [**Lace**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10635252), the first self-supervised attempt at detecting layers in 2D Nissl-stained histological slices of the cerebral cortex 
 - [**C-Shape**](https://arxiv.org/abs/2411.00561), a comprehensive comparison of methods for classifying cell shapes
 - [**Histo-Smith**](https://arxiv.org/abs/2502.08754), novel single-stage approach for generating image-label pairs to augment annotated histology datasets for cell instance segmentation and classificaton 
 - [**Mind The Gap**](https://arxiv.org/abs/2502.02471), a comparison of the representation learning gap between domain-specific histopathology foundation models over general-purpose models for cell instance segmentation and classification
   
-Please note that this repo is WIP, so please contact the owner in case you run into any issues. 
+Please note that this repo is WIP, so please contact the owner in case you run into any issues or have any questions/suggestions regarding the works above.
 
 ## CISCA: a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses
 
