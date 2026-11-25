@@ -14,8 +14,6 @@ The codebase for the following tools/studies has not been made open (at least no
 - [**C-Shape**](https://arxiv.org/abs/2411.00561), a comprehensive comparison of methods for classifying cell shapes, including Elliptical Fourier Descriptors and PCA
 - [**Histo-Smith**](https://arxiv.org/abs/2502.08754), a novel single-stage, latent-diffusion-based, conditional approach for generating image-label pairs to augment annotated histology datasets for cell instance segmentation and classification 
 - [**Mind The Gap**](https://arxiv.org/abs/2502.02471), an evaluation of the gap in the representation learning capabilities between domain-specific histopathology foundation models and general-purpose foundation models for cell instance segmentation and classification
-  
-Please note that this repo is WIP, so please contact the owner in case you run into any issues or have any questions/suggestions regarding the works above.
 
 ## CISCA: a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses
 
@@ -52,17 +50,14 @@ If you find our dataset or CISCA framework useful, we'd love a shoutout! Here’
 **DATASET (cytoDArk0) and/or CELL SEGMENTATION & CLASSIFICATION METHOD (CISCA)**
 
 - Vadori, V., Graïc, J.-M., Peruffo, A., Vadori, G., Finos, L., & Grisan, E. (2024). CISCA and CytoDArk0: a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses and a new, open, Nissl-stained dataset for brain cytoarchitecture studies. arXiv preprint arXiv:2409.04175. https://doi.org/10.48550/arXiv.2409.04175
-- @article{vadori2024cisca,
-  author = {Vadori, Valentina and
-            Graïc, Jean-Marie and
-            Peruffo, Antonella and
-            Vadori, Giulia and
-            Finos, Livio and
-            Grisan, Enrico},
-  title = {CISCA and CytoDArk0: a Cell Instance Segmentation and Classification method for histo(patho)logical image Analyses and a new, open, Nissl-stained dataset for brain cytoarchitecture studies},
-  year = {2024},
-  journal={arXiv e-prints},
-  pages={arXiv--2409},
+- @article{vadori2025cisca,
+  title={Cisca and cytodark0: a cell instance segmentation and classification method for histo (patho) logical image analyses and a new, open, nissl-stained dataset for brain cytoarchitecture studies},
+  author={Vadori, Valentina and Gra{\"\i}c, Jean-Marie and Peruffo, Antonella and Vadori, Giulia and Finos, Livio and Grisan, Enrico},
+  journal={Computers in Biology and Medicine},
+  volume={197},
+  pages={111018},
+  year={2025},
+  publisher={Elsevier}
 }
 
 **DATASET (cytoDArk0)**
